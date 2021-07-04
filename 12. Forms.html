@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>	Forms </title>
+    </head>
+    <body>
+        
+        <form>
+            <fieldset>
+                
+                <legend>Profile Information</legend>
+                Name : <input type="text" placeholder="Enter your name"><br>
+                Email : <input type="email" placeholder="Enter your email"><br>
+                Password : <input type="password"><br>
+
+                <br><br>
+
+                <!-- By giving same "name" in "Name Attribute" we are allowed to choose only one option from given options -->
+                Gender :<br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+
+                <br><br>
+
+                Type of computer :<br>
+                <input type="checkbox">Desktop<br>
+                <input type="checkbox">Laptop
+
+                <br><br>
+
+                Age :<br>
+                <select>
+                    <option>0-20 years</option>
+                    <option>21-40 years</option>
+                    <option>40 years above</option>
+                </select>
+
+                <br><br>
+                
+                Choose File :<br>
+                <input type="file" name="fileupload" accept="image/*">
+
+                <br><br>
+
+                Description :<br>
+                <textarea cols=40 rows=5></textarea>
+
+                <br><br>
+                
+                <!-- Value Attribute gives the text to be displayed on the button -->
+                <input type="submit" value="Save my info">
+                <input type="reset" value="Cancel">
+
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
